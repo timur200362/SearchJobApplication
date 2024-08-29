@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.searchjobapplication.presentation.screens.SearchFragment"
+        android:label="SearchFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.searchjobapplication.presentation.screens.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.example.searchjobapplication.presentation.screens.FavouriteFragment"
+        android:label="FavouriteFragment" />
+    <fragment
+        android:id="@+id/responsesFragment"
+        android:name="com.example.searchjobapplication.presentation.screens.ResponsesFragment"
+        android:label="ResponsesFragment" />
+    <fragment
+        android:id="@+id/messagesFragment"
+        android:name="com.example.searchjobapplication.presentation.screens.MessagesFragment"
+        android:label="MessagesFragment" />
+</navigation>

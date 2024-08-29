@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.translator.MainActivity">
+
+    <item android:id="@+id/searchFragment"
+        android:icon="@drawable/baseline_search_20"
+        android:title="Поиск" />
+
+    <item android:id="@+id/favouriteFragment"
+        android:icon="@drawable/baseline_favorite_20"
+        android:title="Избранное"/>
+
+    <item android:id="@+id/responsesFragment"
+        android:icon="@drawable/baseline_feedback_20"
+        android:title="Отклики"/>
+
+    <item android:id="@+id/messagesFragment"
+        android:icon="@drawable/baseline_message_20"
+        android:title="Сообщения"/>
+
+    <item android:id="@+id/profileFragment"
+        android:icon="@drawable/baseline_assignment_ind_20"
+        android:title="Профиль"/>
+</menu>
